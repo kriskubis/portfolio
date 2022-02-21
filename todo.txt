@@ -1,0 +1,4 @@
+1.) delete and create src
+2.) create index.js
+3.) import React, ReactDOM, App, index.css
+4.) ReactDOM.render(<App />, document.getElementById("root"));

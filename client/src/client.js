@@ -6,7 +6,7 @@ export const client = sanityClient({
     dataset: "production",
     apiVersion: "2022-02-01",
     useCdn: true,
-    token: process.env.REACT_APP_SANITY_TOKEN
+    token: "skwFfYSWTgVJpVm0TPO6Sb4NGgdpy9WdylG0Q2AbsDxIUQYiXGO26VtlYkHGUIIBcf6HmCOxVbnMCc5kupM9FDDOwamCOS1pgcteDXgNp5a5yMvYquVk8YiT9ANKCnwpsISq9Xpo5tcFswURnz3Y3USaXAuhcZKX6on7mDEAdkN7lPgMDNEM"
 });
 
 const builder = imageUrlBuilder(client);
